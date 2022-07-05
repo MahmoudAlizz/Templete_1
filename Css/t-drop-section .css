@@ -1,0 +1,86 @@
+
+/* t-drop */
+
+.t-drop{
+    width:24%;
+}
+
+.t-drop-search{
+    width:90%;
+    margin: auto;
+}
+
+.t-drop-search .icon{
+    right:6;
+    top:4;
+    color:var(--MainColor);
+}
+
+.t-drop-search input{
+    width:100%;
+    height:25px;
+    background: var(--SecoundColor);
+    border:0;
+    border-radius: 4px;
+}
+/* .t-drop-gategory */
+
+.t-drop-gategory-list > li  {
+    font-size:12px;
+    color:var(--TextColor);
+    padding:5px;
+    border-bottom: 1px solid var(--SecoundColor);
+}
+
+.t-drop-gategory-list .job{
+    width:87%;
+}
+
+.t-drop-gategory-list .number{
+    width:13%;
+    color:var(--MainColor);
+    text-align:center;
+
+}
+
+/* .t-drop-populary */
+
+.populary-item-img{
+    width:30%;
+    height:50px;
+    margin-right:5%;
+}
+
+.populary-item-text{
+    width:65%;
+}
+
+.populary-item-img img{
+    width:100%;
+    height:100%;
+}
+
+.populary-item-title{
+    font-size:15px;
+}
+
+.populary-item-des{
+    font-size:12px;
+    color:var(--MainColor)
+}
+
+/* tags */
+
+.tags button{
+    padding:7px;
+    border:0;
+}
+
+.tags button:hover{
+background-color: var(--MainColor);
+color:var(--WhiteColor);
+}
+
+
+
+

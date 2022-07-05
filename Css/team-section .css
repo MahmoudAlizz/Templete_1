@@ -1,0 +1,35 @@
+.team{
+    background-image: url(../Images/background/background3.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height:300px;
+}
+
+.team-content{
+    width:70%;
+}
+
+.team-item{
+    width:48%;
+    margin-right:2%;
+    padding:10px;
+}
+
+.team-item-img{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+}
+
+.team-item-title{
+    color:var(--WhiteColor);
+    font-weight: bold;
+}
+
+.team-item-text{
+    color:var(--MainColor);
+}
+
+.team-item-des{
+    color:var(--WhiteColor);
+}

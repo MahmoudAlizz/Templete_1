@@ -1,0 +1,67 @@
+
+        .ourteam-item{
+            width:30%;
+            text-align: center;
+            padding:15px;
+            background:var(--SecoundColor);
+        }
+
+        .ourteam-item:hover .ourteam-item-title{
+            color:var(--WhiteColor);
+        }
+        .ourteam-item:hover .ourteam-item-des{
+            color:var(--MainColor);
+        }
+
+        .ourteam-item:hover .ourteam-item-img img{
+            opacity: 0.6;
+        }
+
+        .ourteam-item-img img {
+            width:100%;
+            height:250px;
+            transition: 0.5s;
+        }
+        
+        .ourteam-item-img{
+            z-index:3;
+        }
+
+        .ourteam-item-img .icon{
+            width:36px;
+            height:36px;
+            background:var(--MainColor);
+            text-align: center;
+            line-height: 36px;
+            color:var(--WhiteColor);
+        }
+
+        .our-team-icons{
+            top:0;
+            right:0;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.7s;
+        }
+
+        .ourteam-item:hover .our-team-icons{
+            visibility: visible;
+            opacity: 0.9;
+        }
+
+        .ourteam-item-title{
+            font-weight: bold;
+            transition: 0.6s;
+            transition-delay: 0.3s;
+        }
+
+        .ourteam-item-des{
+            font-size: 12px;
+            color:var(--GrayColor);
+            transition: 0.6s;
+            transition-delay: 0.3s;
+        }
+
+        .ourteam-item.ttb-effect{
+            z-index:2;
+        }

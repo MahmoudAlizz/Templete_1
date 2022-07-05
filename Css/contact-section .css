@@ -1,0 +1,68 @@
+.contact{
+}
+
+.contact-item{
+    width:30%;
+    text-align: center;
+}
+
+.contact-item-title{
+    margin:13px 0px;
+}
+
+.contact-item-des{
+    color:var(--TextColor);
+}
+
+.contact-item .icon{
+    color:var(--MainColor);
+}
+
+.contact-fo{
+    width:100%;
+    height:250px;
+}
+
+.contact-fo form{
+   width:70%;
+}
+
+.contact-fo input{
+    width:100%;
+    height:35px;
+    margin:10px 0;
+    background: #dadada49;
+    border:0;
+}
+
+.contact-fo textarea{
+    width:100%;
+    height:35px;
+    margin:10px 0px;
+    background: #dadada49;
+    border:0;
+    line-height: 35px;
+}
+
+.contact-fo input:focus{
+    background:var(--SecoundColor);
+}
+
+input[id="name"],input[id="email"]{
+    width:48%;
+}
+
+input[id="name"]{
+    margin-right: 4%;
+}
+
+.contact-fo form .send{
+    width:118px;
+    height:33px;
+    background-color: var(--MainColor);
+    border:0;
+    color:var(--WhiteColor);
+    border-radius: 5%;
+    cursor: pointer;
+    margin: 15px auto;
+}

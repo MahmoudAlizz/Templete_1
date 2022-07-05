@@ -1,0 +1,23 @@
+.number{
+    background-image: url(../Images/background/background2.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    height:225px;
+}
+
+.number-content{
+    width:80%;
+}
+
+.number-item{
+    width:25%;
+    text-align: center;
+}
+
+.number-item-title,.number-item-text{
+    color:var(--WhiteColor);
+}
+
+.number-item .icon{
+    color:var(--MainColor);
+}

@@ -1,0 +1,86 @@
+.service-item{
+    width:50%;
+    height:300px;
+}
+
+.service-item .section-header .section-title{
+    text-align:left;
+}
+
+.service-item .section-header .section-line{
+    margin:10px 0 40px 0 ;
+}
+
+.service-item-desc{
+    color:var(--GrayColor);
+    font-size:13px;
+    line-height:1.5;
+}
+
+.service-item-list{
+    color:var(--GrayColor);
+    line-height:2;
+}
+
+.service-item-list .icon {
+    width:23px;
+    height:23px;
+    border-radius: 50%;
+    color:var(--MainColor);
+    border:1px solid var(--SecoundColor);
+    text-align: center;
+    line-height:23px;
+}
+
+.service-item-img img{
+    width:100%;
+    height:100%;
+}
+
+.service-item-bollets{
+    text-align: center;
+}
+
+.service-item-bollets li{
+    width:7px;
+    height:7px;
+    background:var(--SecoundColor);
+    border-radius: 50%;
+    margin:0px 4px;
+}
+
+.service-item-bollets li.active{
+    background-color: var(--MainColor);
+    width:15px;
+    border-radius: 30%;
+}
+
+.service-item-bollets li:active {
+    background-color: var(--MainColor);
+    width:15px;
+    border-radius: 30%;
+}
+
+.service-item-img .icon{
+    width:40px;
+    height:40px;
+    background-color: var(--MainColor);
+    text-align: center;
+    line-height: 40px;
+    top:44%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+
+.service-item-img:hover .icon{
+    visibility: visible;
+    opacity: 1;
+}
+.fa-chevron-right{
+    right:0;
+}
+
+.fa-chevron-left{
+    left:0;
+}

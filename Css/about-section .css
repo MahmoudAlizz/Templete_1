@@ -1,0 +1,28 @@
+.about-item{
+    width:30%;
+    text-align:center;
+    border: 1px solid var(--SecoundColor);
+    padding:50px 20px;
+} 
+
+.about-item:hover .item-title{
+    color:var(--WhiteColor);
+}
+
+.about-content .icon{
+    color:var(--MainColor);
+}
+
+.item-title{
+    transition:color 1s;
+}
+
+
+.item-des{
+    font-size: 15px;
+    color:var(--GrayColor);
+}
+
+.about-item-link{
+    color:var(--MainColor);
+}

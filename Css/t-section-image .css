@@ -1,0 +1,164 @@
+
+.t-image{
+    width:74%;
+    margin-right:2%;
+}
+
+.t-image img {
+    width:100%;
+}
+/* text */
+.t-image-text .icons{
+    font-size:13px;
+}
+
+.t-image-text .icons .icon{
+    color:var(--MainColor);
+}
+
+.text-des{
+    color:var(--GrayColor);
+    font-size:13px;
+    line-height: 1.4;
+}
+/* tags */
+.t-image-tags span{
+    font-weight: bold;
+}
+
+.t-image-tags button{
+    padding:5px;
+    border:0;
+    font-size:11px;
+}
+
+.t-image-tags button .icon{
+    color:var(--MainColor);
+}
+
+/* r */
+
+.r{
+    border: 1px solid var(--SecoundColor);
+    padding:13px;
+    
+}
+
+.r-image{
+    width:20%;
+    margin-right: 3%;
+}
+
+.r-image img{
+    width:100%;
+}
+
+.r-text{
+    width:77%;
+}
+
+.r-text-title::after{
+    content: "";
+    display: block;
+    width:100%;
+    height:1px;
+    background-color:var(--SecoundColor);
+    margin:10px 0px;
+
+}
+.r-text-des{
+    color:var(--GrayColor);
+    line-height:1.4;
+    font-size:14px;
+}
+
+.r-text .social-media{
+    top:0;
+    right:0;
+}
+
+.social-media .icon{
+    color:var(--WhiteColor);
+    background:var(--MainColor);
+    width:22px;
+    height:22px;
+    line-height:22px;
+    text-align: center;
+    font-size:12px;
+}
+
+/* comment */   
+
+.comment-item-content{
+    border:1px solid var(--SecoundColor);
+    padding:10px; 
+}
+
+.comment-item{
+    padding:10px;
+}
+
+.comment-item-image{
+    width:10%;
+    margin-right:3%;
+}
+
+.comment-item-image img {
+    width:100%;
+}
+
+.comment-item-text{
+    width:87%;
+}
+
+.comment-item-text-des{
+    color:var(--GrayColor);
+    font-size:13px;
+    line-height:1.4;
+}
+
+.comment-item .reply{
+    top:10;
+    right:8;
+    color:var(--MainColor);
+    font-size:11px;
+    cursor: pointer;
+}
+
+.comment-item:hover{
+    background:var(--SecoundColor);
+    border:1px solid var(--MainColor);
+}
+
+/* reply */
+
+.reply form input{
+    width:48%;
+    height:35px;
+    margin:10px 0;
+    background: #dadada49;
+    border:0;
+}
+
+.reply form input[id="name"]{
+    margin-right:4%;
+}
+
+.reply form textarea{
+    width:100%;
+    height:35px;
+    margin:10px 0;
+    background: #dadada49;
+    border:0;
+    line-height:35px;
+}
+
+.reply form input[id="submit"]{
+    width:118px;
+    height:33px;
+    background-color: var(--MainColor);
+    border:0;
+    color:var(--WhiteColor);
+    border-radius: 5%;
+    cursor: pointer;
+}

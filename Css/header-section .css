@@ -1,0 +1,86 @@
+.header{
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index:10;
+}
+
+.header .logo {
+    width:45%;
+}
+
+.header .logo img{
+    height:50px;
+} 
+
+.header .navbar{
+    width:55%;
+}
+
+.navbar > li {
+   font-size: 12px;
+}
+
+.navbar > li > a {
+    padding: 15px 15px;
+    color:var(--WhiteColor);
+}
+
+
+.navbar li > a::after{
+    content:"";
+    display: block;
+    height: 2px;
+    background-color: var(--MainColor);
+    transition:  0.8s;
+    width:0%;
+}
+
+.navbar > li > a.active::after {
+    width:100%;
+}
+
+.navbar >  li > a:hover::after{
+    width:100%;
+}
+
+
+.dropdown-miun{
+    width:100px;
+    background-color:var(--MainColor);
+    text-align:center;
+    left:-25%;
+    top:85%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s ,visibility 1.5s;
+
+}
+
+.dropdown-miun  a {
+    text-decoration-line:none; 
+    color:var(--WhiteColor);
+    padding:8px;
+
+}
+
+.dropdown:hover .dropdown-miun{
+    visibility: visible;
+    opacity: 1;
+}
+
+.fa-sort-desc{
+    color:var(--WhiteColor);
+}
+
+.header.bg-white{
+    background: var(--WhiteColor);
+}
+
+.header.bg-white a{
+    color:var(--BlackColor);
+} 
+
+.header.bg-white .fa{
+    color:var(--BlackColor);
+}

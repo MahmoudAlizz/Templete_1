@@ -1,0 +1,16 @@
+.breadcrums{
+    height:170px;
+    background:rgb(233, 233, 233);
+}
+
+.breadcrums-content{
+    padding: 19px 0px;
+}
+
+.breadcrums-title{
+    width:75%;
+}
+
+.breadcrums-des{
+    width:25%;
+}

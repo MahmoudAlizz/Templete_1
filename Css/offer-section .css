@@ -1,0 +1,27 @@
+.offer-content-item{
+    border:1px solid var(--SecoundColor);
+    width:30%;
+    padding:25px 10px 25px 55px;
+}
+
+.offer-content-item:hover .offer-content-item-title{
+    color:var(--WhiteColor);
+} 
+
+.offer-content-item .icon{
+    height: 100px;
+    color:var(--MainColor);
+    top:25;
+    left:10;
+
+}
+
+.offer-content-item-title{
+    transition:1s;
+}
+
+.offer-content-item-des{
+    color:var(--GrayColor);
+    font-size:15px;
+    line-height:1.4;
+}
